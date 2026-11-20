@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-4474821105101565746
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_02_{-4474821105101565746}
+  m_AudioClip: {fileID: 8300000, guid: ab56c783fdd87674e85f48f5a6a16311, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1610918952856670694
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_05_{-1610918952856670694}
+  m_AudioClip: {fileID: 8300000, guid: 31d4eff1e28df17448131b253491b75d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &874520280266025539
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_03_{874520280266025539}
+  m_AudioClip: {fileID: 8300000, guid: 94bb773b4b1383c429d1117c21ae82ad, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FootstepsGravel
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 1
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 6527566400719217445}
+  - {fileID: -4474821105101565746}
+  - {fileID: 874520280266025539}
+  - {fileID: 7866345627595207995}
+  - {fileID: -1610918952856670694}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6527566400719217445
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_01_{6527566400719217445}
+  m_AudioClip: {fileID: 8300000, guid: fb20e336636da934eb9f237d61c2068d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7866345627595207995
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_04_{7866345627595207995}
+  m_AudioClip: {fileID: 8300000, guid: 045abd31fc9b5634aad5b52a5dbcd039, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

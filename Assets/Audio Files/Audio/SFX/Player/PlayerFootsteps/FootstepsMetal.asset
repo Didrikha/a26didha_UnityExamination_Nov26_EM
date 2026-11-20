@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &1145454289540318446
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_05_{1145454289540318446}
+  m_AudioClip: {fileID: 8300000, guid: 31d4eff1e28df17448131b253491b75d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3403033370379608240
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_metal_02_{3403033370379608240}
+  m_AudioClip: {fileID: 8300000, guid: 42d4eb36f2b106842a4226f84d70d64c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5164354819573585760
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_metal_03_{5164354819573585760}
+  m_AudioClip: {fileID: 8300000, guid: 3f1ab8cf0d194574d83c67c88e9ab56f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5341366576732057826
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_metal_01_{5341366576732057826}
+  m_AudioClip: {fileID: 8300000, guid: 2e1123325331f0e459ad9e0f1643cc6a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FootstepsMetal
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 1
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 1145454289540318446}
+  - {fileID: 5341366576732057826}
+  - {fileID: 3403033370379608240}
+  - {fileID: 5164354819573585760}
+  - {fileID: 8280165843543313059}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &8280165843543313059
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_metal_04_{8280165843543313059}
+  m_AudioClip: {fileID: 8300000, guid: ab8bcd653876fb440b83cbcafea50281, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
