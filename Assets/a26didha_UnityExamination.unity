@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 522777550}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3519,6 +3519,11 @@ Transform:
   - {fileID: 1910555708647460544}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1225850042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5980974678293466794, guid: b1a623023e449554d98c582d0ef3ac74, type: 3}
+  m_PrefabInstance: {fileID: 1910555708647460543}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1450309242
 GameObject:
   m_ObjectHideFlags: 0
@@ -4251,7 +4256,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 112589820331244128, guid: b1a623023e449554d98c582d0ef3ac74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.10776
+      value: -10.33
       objectReference: {fileID: 0}
     - target: {fileID: 112589820331244128, guid: b1a623023e449554d98c582d0ef3ac74, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4296,13 +4301,59 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5980974678293466794, guid: b1a623023e449554d98c582d0ef3ac74, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1910555708647460545}
   m_SourcePrefab: {fileID: 100100000, guid: b1a623023e449554d98c582d0ef3ac74, type: 3}
 --- !u!4 &1910555708647460544 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 112589820331244128, guid: b1a623023e449554d98c582d0ef3ac74, type: 3}
   m_PrefabInstance: {fileID: 1910555708647460543}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1910555708647460545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225850042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 654c504eb3180ba46b26ff028d6f70a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnityEventOnTrigger
+  tagToActivate: Player
+  onTriggerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1581956699}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onTriggerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1581956699}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
